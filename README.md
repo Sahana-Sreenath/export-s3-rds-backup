@@ -7,9 +7,9 @@ Complete automation to trigger export-to-s3 RDS Instance backup, stores it in s3
 
 ## Requirements
 
-Ensure that you have your RDS instance available
-Have automated backup enabled
-Make sure to have slack webhook url saved in secrets manager in AWS example: `https://hooks.slack.com/services/TJIWSGRGBO/JNFWEBGWURGBERUGBSD12` without quotations
+Ensure that you have your RDS instance available. 
+Have automated backup enabled. 
+Make sure to have slack webhook url saved in secrets manager in AWS example: `https://hooks.slack.com/services/TJIWSGRGBO/JNFWEBGWURGBERUGBSD12` without quotations. 
 
 ## Providers
 
