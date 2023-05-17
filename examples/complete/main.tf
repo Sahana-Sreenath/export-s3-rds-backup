@@ -1,5 +1,5 @@
 module "export_s3_rds_backup_complete" {
-  source         = ../../export-s3-rds-backup
+  source         = "../../"
   account_number = data.aws_caller_identity.current.account_id
   project        = local.project
   db_instance_id = local.db_instance_id
