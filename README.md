@@ -1,17 +1,15 @@
 # export-s3-rds-backup
-Complete automation to trigger export-to-s3 RDS backup, stores it in s3 bucket for compliance policies that require snapshots to be stored more than 30 days and sends notification on completion to your slack channel
+Complete automation to trigger export-to-s3 RDS Instance backup, stores it in s3 bucket for compliance policies that require snapshots to be stored more than 30 days and sends notification on completion to your slack channel
 
 ## Architectural Flow
 
 ![image](assests/architecture.png)
 
-## Automated README file generation using terraform-docs utility
-
-Whenever there is a change to resources or variables please run `terraform-docs markdown . > README.md` from the current directory to update the file to capture latest changes
-
 ## Requirements
 
-No requirements.
+Ensure that you have your RDS instance available
+Have automated backup enabled
+Make sure to have slack webhook url saved in secrets manager in AWS example: `https://hooks.slack.com/services/TJIWSGRGBO/JNFWEBGWURGBERUGBSD12` without quotations
 
 ## Providers
 
