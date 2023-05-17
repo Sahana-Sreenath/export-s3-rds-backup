@@ -1,5 +1,8 @@
-# export-s3-rds-backup
-Complete automation to trigger export-to-s3 RDS Instance backup, stores it in s3 bucket for compliance policies that require snapshots to be stored more than 30 days and sends notification on completion to your slack channel
+# Automate export-to-s3 RDS Instance task and get notifications when complete 
+- Complete automation to trigger export-to-s3 RDS Instance backup
+- Stores it in s3 bucket for compliance policies and automatically deletes it after threshold years 
+- Helps solve limited retention policy of 35 days to store automated snapshots available in RDS
+- Sends notification on completion to your slack channel
 
 ## Architectural Flow
 
